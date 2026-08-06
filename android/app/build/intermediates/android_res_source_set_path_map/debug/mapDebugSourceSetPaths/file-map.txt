@@ -1,0 +1,8 @@
+zavr.info.app-pngs-0 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\build\generated\res\pngs\debug
+zavr.info.app-resValues-1 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\build\generated\res\resValues\debug
+zavr.info.app-updated_navigation_xml-2 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\build\generated\updated_navigation_xml\debug
+zavr.info.app-packageDebugResources-3 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+zavr.info.app-packageDebugResources-4 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+zavr.info.app-debug-5 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\build\intermediates\merged_res\debug\mergeDebugResources
+zavr.info.app-debug-6 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\src\debug\res
+zavr.info.app-main-7 C:\Users\ufaid\ZavrApp\Zavr-2.1\android\app\src\main\res
