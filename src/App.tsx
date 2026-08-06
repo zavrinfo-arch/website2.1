@@ -5,7 +5,7 @@
 
 import * as React from 'react';
 import { useState, useEffect, lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { AnimatePresence, motion } from 'motion/react';
 import confetti from 'canvas-confetti';
@@ -141,7 +141,7 @@ export default function App() {
   return (
     <ErrorBoundary>
       <MotionConfig reducedMotion={shouldDisableHeavyFeatures() ? "always" : "user"}>
-        <BrowserRouter>
+        <HashRouter>
           <PreviewBanner />
           <ZettlProvider>
             <Toaster
@@ -265,7 +265,7 @@ export default function App() {
               onClose={() => setCelebration(prev => ({ ...prev, isOpen: false }))}
             />
           </ZettlProvider>
-        </BrowserRouter>
+        </HashRouter>
       </MotionConfig>
     </ErrorBoundary>
   );
