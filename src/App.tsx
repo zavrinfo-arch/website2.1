@@ -142,7 +142,6 @@ export default function App() {
     <ErrorBoundary>
       <MotionConfig reducedMotion={shouldDisableHeavyFeatures() ? "always" : "user"}>
         <HashRouter>
-          <PreviewBanner />
           <ZettlProvider>
             <Toaster
               position="top-center"
